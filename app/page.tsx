@@ -1,6 +1,11 @@
+import Header from "@/components/HomePage/Header/Header"
+
 const page = () => {
   return (
-    <div>page</div>
+ <section className="">
+      <Header/>
+
+ </section>
   )
 }
 
