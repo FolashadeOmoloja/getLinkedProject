@@ -27,9 +27,6 @@ const Navbar = () => {
           <div className="lg:hidden">
              <MobileSidebar/>
           </div>
-          {/* <div>
-             <img src="/baricon.svg" alt="bar-icon" width={19} height={14} className="lg:hidden"/>
-          </div> */}
      </nav>
   )
 }
