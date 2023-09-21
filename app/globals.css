@@ -17,12 +17,23 @@ body {
 
 }
 
+
+/* header background position */
+.header {
+  background-position: -10px -40px;
+}
+
+
+/* font family for h1 element */
+.clash-display-bold{
+  font-family: 'ClashDisplay-Bold';
+}
+
+
+
 /* button's background  */
 .bg-button{
   background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
 
 }
 
-.clash-display-bold{
-  font-family: 'ClashDisplay-Bold';
-}
