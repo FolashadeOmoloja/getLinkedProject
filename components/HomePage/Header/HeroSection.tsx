@@ -9,9 +9,9 @@ const HeroSection = () => {
            <img src="/line.png" alt="" className="w-[253px] h-[11px] max-sm:w-[115px] max-sm:h-[7px] max-xsm:w-[90px]" />
          </div>
        </section>
-       <section>
-          <div>
-             <h1 className="clash-display-bold text-[80px]">getlinked Tech</h1>
+       <section className="pt-[123px]">
+          <div >
+             <h1 className="clash-display-bold text-[70px]">getlinked Tech</h1>
           </div>
        </section>
     </main>

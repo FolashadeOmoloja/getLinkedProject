@@ -9,7 +9,7 @@ const CTAButton:React.FC<ButtonProps>  = ({className, width='172px', CTA='Regist
 
  
   return (
-    <button className={`w-[${width}] h-[53px] flex items-center justify-center bg-button rounded-[4px] ${className}`}>
+    <button className={`w-[172px] h-[53px] flex items-center justify-center bg-button rounded-[4px] ${className}`}>
     {CTA}
    </button>
   )
