@@ -5,7 +5,7 @@ import Timer from "@/components/Elements/Timer"
 
 const HeroSection = () => {
   return (
-    <main className="pl-[128px] max-slg:px-[30px] pt-[32px] border-b-[1px] border-white">
+    <main className="pl-[128px] max-slg:px-[30px] pt-[32px] border-bottom">
        <section className="relative flex flex-col items-center lg:justify-end lg:items-end lg:mr-[50px] ">
          <p className="italic font-bold text-[36px] max-slg:text-[28px] max-sm:text-[16px] max-xsm:text-[12px]  ">Igniting a Revolution in HR Innovation</p>
          <div className="absolute lg:right-0 right-5 bottom-[-6px]">
@@ -13,7 +13,7 @@ const HeroSection = () => {
          </div>
        </section>
        {/* This is the Title section */}
-       <section className="pt-[123px] flex max-lg:flex-col max-lg:items-center">
+       <section className="pt-[123px] max-sm:pt-[44px] flex max-lg:flex-col max-lg:items-center">
         {/* //This is the section with the information about the website */}
           <section className="Left-Section max-lg:text-center">
             {/* GetLinked heading div */}
