@@ -22,6 +22,17 @@
   }
 }
 
+
+.numbercircle{
+  background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+}
+
+.timeline:nth-child(even) .timelinedate, .timeline:nth-child(odd) .timelinetext{
+text-align: right;
+}
+
+
+
 :root {
 background-color: #150E28;
 }
@@ -37,6 +48,10 @@ background-color: #150E28;
     background-position: bottom center;
     background-repeat: no-repeat;
   }
+
+  .timeline:nth-child(even) .timelinedate, .timeline:nth-child(odd) .timelinetext{
+    text-align: left;
+    }
 }
 
 
@@ -50,6 +65,10 @@ background-color: #150E28;
   background-repeat: no-repeat;
 }
 
+.faqbg{
+  background-position: 0px 180%;
+  background-repeat: no-repeat;
+}
 
 
 
